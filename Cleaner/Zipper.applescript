@@ -45,7 +45,3 @@ end clicked
 on awake from nib theObject
 	set visible of progress indicator "spinner" of window "window" to false
 end awake from nib
-
-on opened theObject
-	(*Add your script here.*)
-end opened
