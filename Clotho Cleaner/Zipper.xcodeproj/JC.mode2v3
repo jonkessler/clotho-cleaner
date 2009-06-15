@@ -438,8 +438,8 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>49E0815A0FE632BC006E4AA3</string>
-				<string>49E0815B0FE632BC006E4AA3</string>
+				<string>49E081700FE63481006E4AA3</string>
+				<string>49E081710FE63481006E4AA3</string>
 				<string>1C9437FD063B20B00039CFAC</string>
 				<string>1C9437FE063B20B00039CFAC</string>
 				<string>1C9437FF063B20B00039CFAC</string>
@@ -472,8 +472,10 @@
 	<integer>0</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1C530D5B069F1CE1000CFCEE</string>
 		<string>1C530D54069F1CE1000CFCEE</string>
-		<string>/Users/JC/Documents/Moirae/Cleaner/Zipper.xcodeproj</string>
+		<string>1C530D52069F1CE1000CFCEE</string>
+		<string>/Users/JC/Documents/Moirae/Clotho Cleaner/Zipper.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>1059 372 350 420 0 0 1440 878 </string>
@@ -690,7 +692,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D52069F1CE1000CFCEE</string>
-				<string>49F3B0050FE5D1C8001141A3</string>
+				<string>49E081720FE63481006E4AA3</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -810,13 +812,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D54069F1CE1000CFCEE</string>
-				<string>49E0815C0FE632BC006E4AA3</string>
+				<string>49E081730FE63481006E4AA3</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>49E0815D0FE632BC006E4AA3</string>
-				<string>49E0815E0FE632BC006E4AA3</string>
-				<string>49E0815F0FE632BC006E4AA3</string>
-				<string>49E081600FE632BC006E4AA3</string>
-				<string>49E081610FE632BC006E4AA3</string>
+				<string>49E081740FE63481006E4AA3</string>
+				<string>49E081750FE63481006E4AA3</string>
+				<string>49E081760FE63481006E4AA3</string>
+				<string>49E081770FE63481006E4AA3</string>
+				<string>49E081780FE63481006E4AA3</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -978,7 +980,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D5B069F1CE1000CFCEE</string>
-				<string>49AADAB20FE0623F00DB0B7C</string>
+				<string>49E081790FE63481006E4AA3</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
