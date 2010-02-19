@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
-	<string>clotho_cleaner2.icns</string>
+	<string>lachisis_512_cleaner</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.apple.ASApplication</string>
 	<key>CFBundleInfoDictionaryVersion</key>
