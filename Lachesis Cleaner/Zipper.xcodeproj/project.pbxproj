@@ -25,7 +25,7 @@
 		257572CA072881A4000BE9CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		257572CC072881A4000BE9CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		257572CD072881A4000BE9CA /* AppleScriptKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */; };
-		494107320FD9E86E003C473C /* clotho_cleaner2.icns in Resources */ = {isa = PBXBuildFile; fileRef = 494107310FD9E86E003C473C /* clotho_cleaner2.icns */; };
+		498B729F112EFF82005DF72D /* lachisis_512_cleaner.icns in Resources */ = {isa = PBXBuildFile; fileRef = 498B729E112EFF82005DF72D /* lachisis_512_cleaner.icns */; };
 		60A014C40DBD2AA20071D9A8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60A014C20DBD2AA20071D9A8 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +37,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		494107310FD9E86E003C473C /* clotho_cleaner2.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = clotho_cleaner2.icns; sourceTree = "<group>"; };
+		498B729E112EFF82005DF72D /* lachisis_512_cleaner.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = lachisis_512_cleaner.icns; sourceTree = "<group>"; };
 		60A014C30DBD2AA20071D9A8 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		65359356078DD41800E8BB2F /* AppleScriptKit.sdef */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.sdef; name = AppleScriptKit.sdef; path = /System/Library/Frameworks/AppleScriptKit.framework/Versions/A/Resources/AppleScriptKit.sdef; sourceTree = "<absolute>"; };
 		DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptKit.framework; path = /System/Library/Frameworks/AppleScriptKit.framework; sourceTree = "<absolute>"; };
@@ -114,7 +114,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				494107310FD9E86E003C473C /* clotho_cleaner2.icns */,
+				498B729E112EFF82005DF72D /* lachisis_512_cleaner.icns */,
 				257572D5072881A4000BE9CA /* Info.plist */,
 				60A014C20DBD2AA20071D9A8 /* MainMenu.xib */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -189,7 +189,7 @@
 			files = (
 				257572C8072881A4000BE9CA /* InfoPlist.strings in Resources */,
 				60A014C40DBD2AA20071D9A8 /* MainMenu.xib in Resources */,
-				494107320FD9E86E003C473C /* clotho_cleaner2.icns in Resources */,
+				498B729F112EFF82005DF72D /* lachisis_512_cleaner.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

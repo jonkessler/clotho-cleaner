@@ -16,7 +16,7 @@ on clicked theObject
 		
 		try
 			tell application "Terminal"
-				do shell script "cd ~/Library/Logs/Discipline; ls; zip -r ~/Desktop/CompressedLogs.zip ./Log"
+				do shell script "cd ~/Library/Logs/Discipline; ls; zip -r ~/Desktop/CompressedLogs.zip ."
 				quit
 			end tell
 			
