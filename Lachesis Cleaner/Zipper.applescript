@@ -40,7 +40,7 @@ on clicked theObject
 		
 	else if objectsName is "deleteButton" then
 		-- Delete Button: delete entire log folder
-		set returnValue to display dialog "Are you sure you want to remove Clotho Logger from your login items and delete the log folder and zip file?" buttons {"Yes", "No"} default button "No"
+		set returnValue to display dialog "Are you sure you want to remove Lachesis Logger from your login items and delete the log folder and zip file?" buttons {"Yes", "No"} default button "No"
 		if button returned of returnValue is "Yes" then
 			do shell script "rm -r ~/Library/Logs/Discipline"
 			tell application "Finder"
@@ -49,11 +49,11 @@ on clicked theObject
 					do shell script "rm ~/Desktop/CompressedLogs.zip"
 				end if
 			end tell
-			tell application "Clotho Logger"
+			tell application "Lachesis Logger"
 				quit
 			end tell
 			removeFromStartUp()
-			display alert "Log folder and zip file deleted. Clotho Logger has been deleted from your startup applications."
+			display alert "Log folder and zip file deleted. Lachesis Logger has been deleted from your startup applications."
 		else
 			display dialog "Nothing deleted" buttons {"OK"}
 		end if
@@ -74,11 +74,11 @@ on awake from nib theObject
 	set visible of progress indicator "spinner" of window "window" to false
 end awake from nib
 
--- On wanting to remove Clotho Logger from startup
+-- On wanting to remove Lachesis Logger from startup
 on removeFromStartUp()
 	tell application "System Events"
-		if login item "Clotho Logger" exists then
-			delete login item "Clotho Logger"
+		if login item "Lachesis Logger" exists then
+			delete login item "Lachesis Logger"
 		end if
 	end tell
 end removeFromStartUp
